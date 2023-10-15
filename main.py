@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Body, Path, Query, Request, HTTPException, Depends
-from fastapi.responses import HTMLResponse, JSONResponse
+from fasctapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel, Field
 from typing import Optional, List
 from jwt_manager import create_token, validate_token
